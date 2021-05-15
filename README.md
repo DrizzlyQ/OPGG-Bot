@@ -1,24 +1,13 @@
-# Kevin Nguyen Bot for Discord
-
-## Preview ##
-![Preview Image 1](https://raw.githubusercontent.com/mattlau1/Kevin-Nguyen-Bot/master/preview/Preview.jpg)
+# League of Legends Account Search Discord Bot
 
 ## About ##
-This bot was supposed to be a joke but now it has random features(?)
+League of Legends Discord Bot that can search a League of Legends Profile on OP.GG without API Key needed on every League of Legends Server!
 
 ## Usage ##
-Create a new file 'secret_token.py' inside a new folder called secret and insert the following code:
-```
-# This should be in kevin-nguyen-bot/src/secret/secret_token.py
-class token_class():
-    def get_token(self):
-        self.token = 'REPLACE WITH TOKEN'
-        return self.token
-```
-
-Install Requirements with ``` pip3 install -r requirements.txt ```
-
-Run with ``` python3 bot.py ```
+1. Right Click inside the folder and Press "Open Powershell Window Here"
+2. Run this: ```python -m pip install -r requirements.txt```
+3. After that's done, head to the folder called "secret" and place your token under 'TOKEN' field on "secret_token.py"
+4. Run with ```python bot.py```
 
 
 ## Features ##
